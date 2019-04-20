@@ -1,0 +1,7 @@
+No decorrer do processo de desenvolvimento de software é importante manter a qualidade e a garantia de que o produto continuará funcionando após novas implementações e correções. Para dar essa garantia no serviço prestado, é comum a utilização de diversos tipos de testes durante todo o processo de desenvolvimento.
+Existem vários tipos de testes, cada um visando um objetivo particular e um objetivo final que é garantir a maior porcentagem de qualidade no desenvolvimento de software.
+Cada tipo de teste serve pra um propósito e se encaixa em uma parte do desenvolvimento, como o teste unitário feito pelo desenvolvedor para garantir a função correta do método executado, o teste de segurança que visa garantir que nenhum método ilegal ou fora do escopo do serviço consiga acessar os dados do sistema desenvolvido.
+
+Referências:
+	-ISO 27001 - Information technology, Security techniques, Information security and management systems - Overview and vocabulary
+	-Test-Driven Development - Teste e Design no Mundo Real - Casa do Codigo
