@@ -1,0 +1,11 @@
+FO:
+- Maximizar o lucro;
+- (0,07 * leite) + (1,04 * queijo) + (0,20 * yogurt) <= 100000 leite;
+- 10 leite = 1 queijo;
+- 2,5 leite = 1 yogurt
+
+Restrições:
+- leite = 50,000
+- queijo <= 3,500
+- iogurte <= 20,000
+- yogurt >= queijo
