@@ -1,0 +1,48 @@
+manipulações de um cursor:
+	-open (abrir)
+	-fetch into (ler uma linha)
+	-close (fechar)
+	
+%rowtype 
+	- espelha a variavel com as X colunas do select feito;
+	ex: se o select apresenta informação de colunas [NOME - euclides, TIPO - PROGRAMADOR, SEXO - masculino], o fetch into vai ler e apresentar as linhas buscadas na query
+	
+
+exemplo de cursor:
+
+
+DECLARE
+
+	CURSOR C1 IS SELECT NOME, SOBRENOME, SALARIO
+	 FROM EMP
+	 VNOME		EMP.NOME%TYPE;
+	 VSOBRENOME	EMP.SOBRENOME%TYPE;
+	 VSALARIO	EMP.SALARIO%TYPE;
+-no lugar de tudo isso, criar uma variavel rowtype:
+	VCURSOR	C1%ROWTYPE;
+-sendo que na tabela temos:
+-a tabela emp tem 15 linhas de registro
+	ana		maria	10
+	joao	pedro	20
+	elcio	xxx		45
+	
+abrindo o cursor, tem-se:
+BEGIN
+	OPEN C1
+	 LOOP
+	FETCH C1 INTO VNOME, VSOBRENOME, VSALARIO;
+-substituindo a linha anterior por
+	FETCH C1 INTO VCURSOR;
+	[EXEMPLO DE SAIDA]
+	EXIT WHEN C1%NOTFOUND
+	END LOOP; 
+	
+END
+
+%rowcount	- informa quantas linhas foram afetadas 
+%found		- será true caso alguma linha tenha sido afetada
+%notfound	- será false caso alguma linha tenha sido afetada
+%isopen		- será true caso o cursor esteja aberto [SOMENTE FAZ SENTIDO PARA CURSOR EXPLÍCITO]
+
+
+notação NOMEADA	-	escolhe a sequência e como quer ser utilizado, apresentando em ordens diferentes com => para definir o parâmetro de entrada

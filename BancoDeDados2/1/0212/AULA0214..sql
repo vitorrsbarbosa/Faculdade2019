@@ -1,0 +1,47 @@
+declare
+-- %type	=> associação de tipo e tamanho da coluna na tabela
+-- &		=> variavel de substituição (abre uma janela de edição)
+	VCodEmp		EMPRESA.CODEMPRESA%TYPE		:=	&CODIGO
+	VNomeEmp	EMPRESA.NOMEEMPRESA%TYPE;
+	VQtdeCar	NUMBER(4);
+	VDesc		VARCHAR2(50)
+	
+begin
+
+	SELECT E.NOMEEMPRESA, COUNT(CE.PLACA) QUANTIDADE
+	 INTO VNomeEmp, VQtdeCar
+		FROM EMPRESA E LEFT OUTER JOIN CARROS_EMPRESA CE
+		 ON E.CODEMPRESA = CE.CODEMPRESA
+	 WHERE E.CODEMPRESA = VCodEmp
+	 GROUP BY E.NOMEEMPRESA;
+
+IF
+	VQtdeCar BETWEEN 1 AND 5 THEN
+	VDesc := 'TEM ATÉ 5 CARROS ASSOCIADOS';
+	
+ELSIF
+	VQtdeCar BETWEEN 6 AND 11 THEN
+	VDesc := 'TEM ENTRE 6 E 11 CARROS';
+	
+ELSIF
+	VQtdeCar >= 12 THEN
+	VDesc := 'TEM CARRO PRA CARAI';
+	
+END IF;
+
+/*	toda vez que houver coluna antes da função 
+	de agrupamento precisa usar group by*/
+	
+	INSERT INTO TEMP (CODIGO_EMPRESA, NOME_EMPRESA, TOTAL_CARROS)
+	VALUES
+		(VCodEmp, VNomeEmp, VQtdeCar)
+
+EXCEPTION
+	WHEN NO_DATA_FOUND THEN
+		RAISE_APPLICATION_ERROR(-20001,'EMPRESA NÃO CADASTRADA');
+	WHEN OTHERS THEN
+		RAISE_APPLICATION_ERROR(-20002, SQLERM(SQLCODE));
+		
+
+
+end;
