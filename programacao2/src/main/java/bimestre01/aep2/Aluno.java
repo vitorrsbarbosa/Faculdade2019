@@ -1,3 +1,4 @@
+package bimestre01.aep2;
 public class Aluno {
     private String nome;
     private int ra;

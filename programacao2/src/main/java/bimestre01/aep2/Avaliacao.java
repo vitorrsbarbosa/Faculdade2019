@@ -1,3 +1,4 @@
+package bimestre01.aep2;
 public class Avaliacao {
 	private float nota;
 	private Disciplina disciplina;

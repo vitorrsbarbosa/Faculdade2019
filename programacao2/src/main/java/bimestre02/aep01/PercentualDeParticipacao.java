@@ -1,4 +1,4 @@
-package aula20190528.v2.pessoa;
+package bimestre02.aep01;
 
 public class PercentualDeParticipacao {
 	private final double valor;
