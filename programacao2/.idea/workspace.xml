@@ -1,51 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1839db6e-401e-4e02-a0e2-04aa2ce27a7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/alimentacao/Suino.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/deposito/ValorDeDepositoInvalidoException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190322/livro/TestesComLivro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190322/livro/TestesComLivro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190326/cofre/Cofre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190326/cofre/Cofre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190329/cartão/AppListas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190329/cartao/AppListas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190329/cartão/Cartão.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190329/cartao/Cartao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190329/cartão/TestesComCartão.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190329/cartao/TestesComCartao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190329/cartão/cartão.asta" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190329/cartao/cartão.asta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190402/lista/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190402/lista/Lista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190402/lista/TestesComLista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190402/lista/TestesComLista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190405/generics/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190405/generics/Lista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190405/generics/TestesComLista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190405/generics/TestesComLista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190405/recursão/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190405/recursao/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190528/v2/pessoa/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bimestre02/aep01/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190528/v2/pessoa/Fisica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bimestre02/aep01/Fisica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190528/v2/pessoa/Juridica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bimestre02/aep01/Juridica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190528/v2/pessoa/PercentualDeParticipacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bimestre02/aep01/PercentualDeParticipacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190528/v2/pessoa/PercentualDeParticipacaoInvalido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bimestre02/aep01/PercentualDeParticipacaoInvalido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190528/v2/pessoa/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bimestre02/aep01/Pessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190528/v2/pessoa/aula20190528.asta" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bimestre02/aep01/aula20190528.asta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190531/jdbc/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190531/jdbc/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190604/jdbc/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190604/jdbc/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190607/repository/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190607/repository/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190607/repository/CorRepositoryMemória.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190607/repository/CorRepositoryMemoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190611/repository_final/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190611/repository_final/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190611/repository_final/CorRepositoryMemória.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190611/repository_final/CorRepositoryMemoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_exceções/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_exceções/UlhaException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/UlhaException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_exceções/alimentação/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/alimentacao/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_exceções/alimentação/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/alimentacao/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_exceções/alimentação/Boi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/alimentacao/Boi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_exceções/alimentação/BuchoCheioExeption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/alimentacao/BuchoCheioExeption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_exceções/alimentação/Frango.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/alimentacao/Frango.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_exceções/alimentação/Robô.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/alimentacao/Robo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_exceções/alimentação/Suíno.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_exceções/deposito/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/deposito/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_exceções/deposito/Depósito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/deposito/Deposito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_exceções/deposito/ValorDeDepósitoInválidoException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190619/tipos_de_exceções/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190619/tipos_de_excecoes/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190619/tipos_de_exceções/CargaIdentificadaException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190619/tipos_de_excecoes/CargaIdentificadaException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190619/tipos_de_exceções/Prensa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190619/tipos_de_excecoes/Prensa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aula20190619/tipos_de_exceções/aula20190618.asta" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190619/tipos_de_excecoes/aula20190618.asta" afterDir="false" />
-    </list>
+    <list default="true" id="1839db6e-401e-4e02-a0e2-04aa2ce27a7f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,26 +32,16 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/aula20190619/tipos_de_exceções/CargaIdentificadaException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/UlhaException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/alimentacao/Suíno.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/alimentacao/BuchoCheioExeption.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/alimentacao/Frango.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/alimentacao/Boi.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/alimentacao/Animal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/alimentacao/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/alimentacao/Robô.java" />
         <option value="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/deposito/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/deposito/Depósito.java" />
         <option value="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/deposito/ValorDeDepósitoInválidoException.java" />
         <option value="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/aula20190611/repository_final/CorRepositoryMemoria.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190611/repository_final/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/aula20190607/repository/CorRepositoryMemoria.java" />
         <option value="$PROJECT_DIR$/src/main/java/aula20190607/repository/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/aula20190604/jdbc/App.java" />
@@ -132,6 +78,16 @@
         <option value="$PROJECT_DIR$/src/main/java/bimestre02/aep02/repository/Repository.java" />
         <option value="$PROJECT_DIR$/src/main/java/bimestre02/aep02/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/aula20190528/v2/pessoa/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aula20190625/exception_com_dois_bancos/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aula20190625/exception_com_dois_bancos/Cor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aula20190625/configuracao_com_dois_bancos/CorRepositoryMemoria.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aula20190611/repository_final/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aula20190625/configuracao_com_dois_bancos/Cor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aula20190625/configuracao_com_dois_bancos/CorRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aula20190625/configuracao_com_dois_bancos/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aula20190625/configuracao_com_dois_bancos/connection.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/aula20190625/configuracao_com_dois_bancos/doisBancosException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aula20190625/configuracao_com_dois_bancos/CorRepositoryJDBC.java" />
       </list>
     </option>
   </component>
@@ -170,7 +126,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,31 +157,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bimestre01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="programacao2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="programacao2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bimestre02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="programacao2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="programacao2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bimestre02" type="462c0819:PsiDirectoryNode" />
-              <item name="aep01" type="462c0819:PsiDirectoryNode" />
+              <item name="configuracao_com_dois_bancos" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561504604315" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -288,7 +232,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="aula20190329.cartao" />
       <option name="MAIN_CLASS_NAME" value="aula20190329.cartao.TestesComCartao" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -305,6 +248,16 @@
   </component>
   <component name="SvnConfiguration">
     <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1839db6e-401e-4e02-a0e2-04aa2ce27a7f" name="Default Changelist" comment="" />
+      <created>1561501575942</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561501575942</updated>
+    </task>
+    <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="All_in_3esoft2019 - 2019.06.25 at 15h 23m 28s.xml">
@@ -324,12 +277,16 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2602118" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3286119" />
@@ -339,7 +296,10 @@
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32843137" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -347,6 +307,9 @@
       <window_info anchor="right" id="Maven" order="4" weight="0.3295302" />
       <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.3295302" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -370,109 +333,7 @@
     <SUITE FILE_PATH="coverage/3esoft2019$All_in_3esoft2019__3_.ic" NAME="All in 3esoft2019 (3) Coverage Results" MODIFIED="1561487862824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190402/lista/TestesComLista.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190402/lista/Lista.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-          <folding>
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190329/cartao/AppListas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190619/tipos_de_excecoes/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190322/livro/TestesComLivro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190405/recursao/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190326/cofre/Cofre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding>
-            <element signature="e#77#78#0" expanded="true" />
-            <element signature="e#95#96#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190326/cofre/TestesComCofre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190405/generics/TestesComLista.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#230#239#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190405/generics/Lista.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190329/cartao/Cartao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding>
-            <element signature="e#203#211#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/aula20190329/cartao/TestesComCartao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -497,20 +358,8 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/01aep/aep2/src/main/java/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/01aep/aep2/src/main/java/Aluno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/01aep/aep2/src/main/java/App.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/01aep/aep2/src/main/java/Aluno.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/bimestre01/aep1/aep01.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -518,9 +367,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/01aep/aep2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/01aep/aep2/pom.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/aula20190219/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -528,13 +375,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/function/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/function/Predicate.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/bimestre01/aep2/Aluno.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -764,6 +605,98 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190611/repository_final/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190625/configuracao_com_dois_bancos/CorRepositoryMemoria.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190619/tipos_de_excecoes/Prensa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190625/configuracao_com_dois_bancos/Cor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190625/configuracao_com_dois_bancos/CorRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190619/tipos_de_excecoes/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190619/tipos_de_excecoes/CargaIdentificadaException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding>
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190625/configuracao_com_dois_bancos/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190625/configuracao_com_dois_bancos/CorRepositoryJDBC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190625/configuracao_com_dois_bancos/connection.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190625/configuracao_com_dois_bancos/doisBancosException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
