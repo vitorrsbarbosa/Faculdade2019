@@ -1,0 +1,7 @@
+variável de folga serve para para deixar a função objetivo igual a zero
+
+o método simplex:
+-o quadro simplex para registro de informações inclui:
+	1. coeficientes das variáveis
+	2. as constantes do lado direito das equações
+	3. a variável básica que aparece em cada equação
