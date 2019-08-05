@@ -1,0 +1,13 @@
+/* declarações */
+set CIDADES;
+set SUBESTACOES;
+/* atribuições */
+set CIDADES := CIDADE01 CIDADE02 CIDADE03 CIDADE04;
+set SUBESTACOES := SUB01 SUB02 SUB03;
+
+/* demandas */
+param demanda :=
+CIDADE01 45
+CIDADE02 20
+CIDADE03 30
+CIDADE04 30;
