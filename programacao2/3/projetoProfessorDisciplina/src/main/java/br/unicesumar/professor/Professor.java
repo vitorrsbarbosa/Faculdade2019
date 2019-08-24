@@ -1,24 +1,20 @@
-package professor;
+package br.unicesumar.professor;
+
+import java.util.UUID;
 
 public class Professor {
-    private Long id;
+    private String id;
     private String nome;
 
     public Professor() {
     }
-
-    public Long getId() {
+    public String getId() {
+        id = UUID.randomUUID().toString();
         return id;
     }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
     public String getNome() {
         return nome;
     }
-
     public void setNome(String nome) {
         this.nome = nome;
     }

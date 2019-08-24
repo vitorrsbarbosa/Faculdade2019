@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TerceiroEsoftApplication",
+            "request": "launch",
+            "mainClass": "br.unicesumar.TerceiroEsoftApplication",
+            "projectName": "3esoft2019"
+        }
+    ]
+}
