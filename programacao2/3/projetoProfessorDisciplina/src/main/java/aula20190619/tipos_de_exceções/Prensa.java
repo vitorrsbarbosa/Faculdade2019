@@ -7,13 +7,9 @@ public class Prensa {
 			throw new CargaIdentificadaException();
 		}
 	}
-	
-	public void ligar() {
-		
+	public void ligar() {	
 	}
-	
 	public void desligar() {
 		System.out.println("Desligamento acionado!!!");
 	}
-
 }

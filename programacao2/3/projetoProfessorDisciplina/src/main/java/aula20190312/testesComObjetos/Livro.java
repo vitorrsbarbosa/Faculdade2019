@@ -6,12 +6,10 @@ public class Livro extends Object {
 	
 	public Livro() {
 	}
-	
 	public Livro(String titulo, int quantidadeDePaginas) {
 		this.titulo = titulo;
 		this.quantidadeDePaginas = quantidadeDePaginas;
 	}
-	
 
 	@Override
 	public boolean equals(Object obj) {
@@ -23,8 +21,8 @@ public class Livro extends Object {
 		if (!mesmoTipo) {
 			return false;
 		}
-		//Coerção / type casting
-		//Fazemos isso para obtermos acesso aos métodos e atributos da classe em questão.
+		//Coercao / type casting
+		//Fazemos isso para obtermos acesso aos metodos e atributos da classe em questao.
 		Livro aux = (Livro)obj;
 		boolean mesmoTitulo = aux.titulo == this.titulo;
 		boolean mesmaQuantidadeDePaginas = aux.quantidadeDePaginas == this.quantidadeDePaginas;

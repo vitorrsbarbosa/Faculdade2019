@@ -5,5 +5,4 @@ public class ValorDeDepósitoInválidoException extends RuntimeException {
 	public ValorDeDepósitoInválidoException(String mensagem) {
 		super(mensagem);
 	}
-
 }

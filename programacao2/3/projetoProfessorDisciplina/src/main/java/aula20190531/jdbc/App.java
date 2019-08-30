@@ -89,9 +89,4 @@ public class App {
 		statement.execute(sql);
 		statement.close();		
 	}
-
 }
-
-
-
-

@@ -28,7 +28,6 @@ public class Juridica extends Pessoa {
 		if (percentualAtual + percentualDeParticipacao > 100.00) {
 			throw new RuntimeException("A participaço total n�o pode exceder 100%! Percentual atual: " + percentualAtual + ". Voc� tentou adicionar mais " + percentualDeParticipacao);
 		}
-		
 		this.cotasSociedade.add(novaCota);
 	}
 	private double somarPercentualAtual() {
@@ -53,7 +52,6 @@ public class Juridica extends Pessoa {
 	public String getCnpj() {
 		return cnpj;
 	}
-	
 	private class CotaSociedade {
 		private double percentualDeParticipacao;
 		private Pessoa socio;
@@ -85,10 +83,6 @@ public class Juridica extends Pessoa {
 		}
 		private Juridica getOuterType() {
 			return Juridica.this;
-		}
-		
-		
-		
+		}	
 	}
-
 }

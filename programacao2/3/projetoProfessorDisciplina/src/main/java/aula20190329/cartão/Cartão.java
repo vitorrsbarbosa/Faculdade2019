@@ -26,5 +26,4 @@ public class Cartão {
 		this.extrato.add(+valor);
 		this.saldoDevedor-=valor;
 	}
-
 }

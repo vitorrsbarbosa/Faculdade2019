@@ -42,10 +42,7 @@ public class App {
 			System.out.println("Listando pessoas...");
 			for (Pessoa p : obterPessoas(conn)) {
 				System.out.println("  " + p.getId() + "," + p.getNome() + ", " + p.getNascimento().toLocaleString());
-			}
-		
-
-			
+			}	
 			System.out.println("Conectado!");
 			conn.close();
 			System.out.println("Fechado.");
@@ -116,9 +113,4 @@ public class App {
 		statement.execute(sql);
 		statement.close();		
 	}
-
 }
-
-
-
-

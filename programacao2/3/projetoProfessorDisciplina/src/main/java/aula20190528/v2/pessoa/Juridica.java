@@ -27,11 +27,9 @@ public class Juridica extends Pessoa {
 		novaCota.percentualDeParticipacao = percentualDeParticipacao;
 		
 		double percentualAtual = somarPercentualAtual();
-		/*
 		if (percentualAtual + percentualDeParticipacao > 100.00) {
-			throw new RuntimeException("A participaço total n�o pode exceder 100%! Percentual atual: " + percentualAtual + ". Voc� tentou adicionar mais " + percentualDeParticipacao);
+			throw new RuntimeException("A participaço total nao pode exceder 100%! Percentual atual: " + percentualAtual + ". Voce tentou adicionar mais " + percentualDeParticipacao);
 		}
-		*/
 		
 		this.cotasSociedade.add(novaCota);
 	}

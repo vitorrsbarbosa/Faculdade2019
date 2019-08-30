@@ -48,8 +48,4 @@ public abstract class Pessoa {
 			return false;
 		return true;
 	}
-	
-	
-	
-
 }

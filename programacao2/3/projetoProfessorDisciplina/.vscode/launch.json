@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "aula20190226.App",
+            "projectName": "3esoft2019"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BaseApplication",
+            "request": "launch",
+            "mainClass": "br.unicesumar.base.BaseApplication",
+            "projectName": "3esoft2019"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TerceiroEsoftApplication",
             "request": "launch",
             "mainClass": "br.unicesumar.TerceiroEsoftApplication",

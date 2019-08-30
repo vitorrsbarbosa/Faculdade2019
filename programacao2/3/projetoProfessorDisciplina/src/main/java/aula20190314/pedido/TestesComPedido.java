@@ -2,16 +2,12 @@ package aula20190314.pedido;
 
 import static org.junit.Assert.*;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.junit.Test;
 
 public class TestesComPedido {
 	private final Produto omo = new Produto("123a", "Omo Progress");
 	private final Produto soja = new Produto("227a", "Soja a granel");
 	
-
 	@Test
 	public void testarNovosPedidos() {		
 		Pedido p1 = new Pedido(1);
@@ -26,8 +22,6 @@ public class TestesComPedido {
 		p2.adicionarItem(omo, 4, 14.75, 3.00);
 		
 		assertEquals(2, p2.getNumero());
-		assertEquals(1, p2.getItens().size());
-		
+		assertEquals(1, p2.getItens().size());	
 	}
-
 }

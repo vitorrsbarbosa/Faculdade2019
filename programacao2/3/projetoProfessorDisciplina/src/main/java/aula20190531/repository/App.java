@@ -13,8 +13,8 @@ public class App {
 		
 		Connection conn = null; //DriverManager.getConnection...
 
-		//CorRepository repo = new CorRepositoryJDBC(conn); //usar a conexão para persistir os dados.
-		//CorRepository repo = new CorRepositoryMemória(); //manter  os dados em uma coleção.
+		//CorRepository repo = new CorRepositoryJDBC(conn); //usar a conexao para persistir os dados.
+		//CorRepository repo = new CorRepositoryMemoria(); //manter  os dados em uma colecao.
 		CorRepository repo = null;
 		
 		repo.inserir(verde);
@@ -33,5 +33,4 @@ public class App {
 		repo.excluir(rosa.getId());
 		
 	}
-
 }

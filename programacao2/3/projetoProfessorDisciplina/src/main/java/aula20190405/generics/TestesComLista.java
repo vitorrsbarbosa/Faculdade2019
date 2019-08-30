@@ -1,9 +1,7 @@
 package aula20190405.generics;
 
 import static org.junit.Assert.*;
-
 import java.util.Date;
-
 import org.junit.Test;
 
 public class TestesComLista {
@@ -18,7 +16,6 @@ public class TestesComLista {
 	public void testarSeTamanhoEstáCorretoComInteiros() {
 		Lista nova = new Lista();		
 		assertEquals(0, nova.obterTamanho());
-		
 		
 		nova.adicionar(10);
 		assertEquals(1, nova.obterTamanho());
@@ -52,7 +49,7 @@ public class TestesComLista {
 		nova.adicionar("Brasil");
 		nova.adicionar("Canadá");
 		nova.adicionar("Espanha");
-		nova.adicionar("Suácia");
+		nova.adicionar("Suecia");
 		
 		assertEquals(4, nova.obterTamanho());
 		assertEquals("Brasil", nova.pegar(0));
@@ -61,5 +58,4 @@ public class TestesComLista {
 		assertEquals(3, nova.obterTamanho());
 		assertEquals("Canadá", nova.pegar(0));
 	}
-
 }

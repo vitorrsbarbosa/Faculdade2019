@@ -6,7 +6,6 @@ public class Lista<TIPO> {
 	public int obterTamanho() {
 		return dados.length;
 	}
-
 	public void adicionar(TIPO elemento) {
 		int tamanho = dados.length;
 		
@@ -18,11 +17,9 @@ public class Lista<TIPO> {
 		novoArray[tamanho] = elemento;
 		dados = novoArray;		
 	}
-
 	public TIPO pegar(int posição) {
 		return (TIPO)dados[posição];
 	}
-
 	public void remover(int posição) {
 		int tamanho = dados.length;
 		
@@ -36,7 +33,4 @@ public class Lista<TIPO> {
 		}
 		dados = novoArray;		
 	}
-	
-	
-
 }

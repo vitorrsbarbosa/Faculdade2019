@@ -3,7 +3,6 @@ package aula20190619.tipos_de_exceções;
 import javax.swing.JOptionPane;
 
 public class App {
-	
 	public static void main(String[] args) {
 		Prensa p1 = new Prensa();		
 		try {
@@ -17,8 +16,6 @@ public class App {
 		} finally {
 			p1.desligar();
 		}
-		System.out.println("Fim.");
-		
+		System.out.println("Fim.");	
 	}
-
 }

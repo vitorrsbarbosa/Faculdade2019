@@ -33,8 +33,6 @@ Exception in thread "main" java.sql.SQLIntegrityConstraintViolationException: Du
 	at aula20190625.configurando_conexoes.CorRepositoryJDBC.inserir(CorRepositoryJDBC.java:40)
 	at aula20190625.configurando_conexoes.App.main(App.java:19)
  */
-	
-	
 	public static void main(String[] args) throws Exception {
 		Cor verde = new Cor(1, "Verde");
 		Cor rosa = new Cor(2, "Rosa");
@@ -47,7 +45,7 @@ Exception in thread "main" java.sql.SQLIntegrityConstraintViolationException: Du
 		repo.inserir(verde);
 		repo.inserir(rosa);
 		repo.inserir(new Cor(3, "Azul"));	
-		repo.inserir(new Cor(4, "Lilás"));
+		repo.inserir(new Cor(4, "Lilï¿½s"));
 		
 		
 		verde = new Cor(1, "Verde Musgo");
@@ -61,10 +59,8 @@ Exception in thread "main" java.sql.SQLIntegrityConstraintViolationException: Du
 		for (Cor cor : cores) {
 			System.out.println("  " + cor.getNome());
 		}
-		System.out.println("Fim da listagem.");
-		
+		System.out.println("Fim da listagem.");	
 	}
-	
 	private static CorRepository criarCorRepository() throws Exception {
 		/*
 		Connection conn = DriverManager.getConnection(
@@ -84,8 +80,6 @@ Exception in thread "main" java.sql.SQLIntegrityConstraintViolationException: Du
 				propriedades.getProperty("url"),
 				propriedades.getProperty("user"),
 				propriedades.getProperty("password"));
-		return new CorRepositoryJDBC(conn); //usar a conexão para persistir os dados.
+		return new CorRepositoryJDBC(conn); //usar a conexao para persistir os dados.
 	}
-
-
 }

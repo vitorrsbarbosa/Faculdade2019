@@ -25,5 +25,4 @@ public class Fisica extends Pessoa {
 	public String getRg() {
 		return rg;
 	}
-
 }

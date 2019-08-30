@@ -17,9 +17,6 @@ public class App {
 				usuarioQuerContinuar = JOptionPane.showConfirmDialog(null, "Valor inv�lido, deseja continuar?","Confirme", JOptionPane.YES_NO_OPTION) == 0;
 			}
 		}
-		System.out.println("Fim.");
-		
-		
+		System.out.println("Fim.");	
 	}
-
 }

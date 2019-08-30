@@ -8,6 +8,4 @@ public interface ImovelRepository {
 	void salvar(Imovel i);
 	List<Imovel> recuperarTodos();
 	Map<Pessoa, List<Imovel>> recuperarImoveisPorProprietario();
-
-
 }

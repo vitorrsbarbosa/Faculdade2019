@@ -20,6 +20,4 @@ public class Pessoa {
 	public Pessoa setNome(String nome) {		
 		return new Pessoa(nome, this.idade);
 	}
-	
-
 }

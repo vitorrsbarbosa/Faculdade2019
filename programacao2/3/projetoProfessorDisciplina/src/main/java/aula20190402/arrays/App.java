@@ -10,10 +10,6 @@ public class App {
 		int[] novoArray = new int[idades.length+1];
 		novoArray[1] = 33;
 		
-		System.out.println("Foi.");
-		
-		
-		
+		System.out.println("Foi.");	
 	}
-
 }

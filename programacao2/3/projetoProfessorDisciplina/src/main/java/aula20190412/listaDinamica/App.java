@@ -15,9 +15,6 @@ public class App {
 		nomes.adicionar("xis");
 		
 		System.out.println("Foi. Tamanho: " + nomes.obterTamanho());
-		
-		System.out.println(nomes.pegar(1005));
-		
+		System.out.println(nomes.pegar(1005));	
 	}
-
 }

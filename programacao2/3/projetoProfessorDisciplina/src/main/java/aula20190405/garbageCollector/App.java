@@ -2,7 +2,6 @@ package aula20190405.garbageCollector;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import javax.swing.JOptionPane;
 
 public class App {
@@ -20,8 +19,6 @@ public class App {
 		for (int i = 0; i < 1_000_000; i++) {
 			pessoas.add(new Pessoa("Nome " + i, i));
 		}
-		JOptionPane.showMessageDialog(null, "Segunda parada...");
-		
+		JOptionPane.showMessageDialog(null, "Segunda parada...");	
 	}
-
 }

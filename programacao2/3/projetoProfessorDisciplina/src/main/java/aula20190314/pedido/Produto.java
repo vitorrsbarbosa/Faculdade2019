@@ -15,5 +15,4 @@ public class Produto {
 	public String getDescricao() {
 		return descricao;
 	}
-
 }

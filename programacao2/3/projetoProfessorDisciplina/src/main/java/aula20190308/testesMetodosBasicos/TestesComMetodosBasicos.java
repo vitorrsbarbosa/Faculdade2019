@@ -1,7 +1,6 @@
 package aula20190308.testesMetodosBasicos;
 
 import static org.junit.Assert.*;
-
 import org.junit.Test;
 
 public class TestesComMetodosBasicos {
@@ -43,9 +42,5 @@ public class TestesComMetodosBasicos {
 		Util.seiLah(fulana);
 		
 		assertEquals("Fulana", fulana.getNome());
-	}
-	
-	
-	
-	
+	}	
 }

@@ -3,7 +3,6 @@ package aula20190412.listaDinamica;
 public class ListaDinamica<TIPO_DO_ELEMENTO> {
 	private Elemento primeiro;
 	
-	
 	private int obterTamanho(Elemento atual, int tamanho) {
 		if (atual == null) {
 			return tamanho;
@@ -11,7 +10,6 @@ public class ListaDinamica<TIPO_DO_ELEMENTO> {
 			return obterTamanho(atual.proximo, tamanho+1);
 		}
 	}
-	
 	public int obterTamanho() {
 		return obterTamanho(this.primeiro, 0);
 //		if (primeiro == null) {
@@ -25,7 +23,6 @@ public class ListaDinamica<TIPO_DO_ELEMENTO> {
 //		}
 //		return tamanho;
 	}
-	
 	private void adicionar(Elemento atual, Elemento novo) {
 		if (atual.proximo == null) {
 			atual.proximo = novo;
@@ -33,7 +30,6 @@ public class ListaDinamica<TIPO_DO_ELEMENTO> {
 			adicionar(atual.proximo, novo);
 		}
 	}
-	
 	public void adicionar(TIPO_DO_ELEMENTO valor) {
 		Elemento novo = new Elemento(valor);
 		
@@ -42,7 +38,6 @@ public class ListaDinamica<TIPO_DO_ELEMENTO> {
 		} else {
 			adicionar(this.primeiro, novo);
 		}
-		
 		/*
 		if (this.primeiro == null) {
 			this.primeiro = novo;
@@ -55,8 +50,6 @@ public class ListaDinamica<TIPO_DO_ELEMENTO> {
 		}
 		*/
 	}
-	
-	
 	private class Elemento {
 		private TIPO_DO_ELEMENTO valor;
 		private Elemento proximo;
@@ -67,10 +60,9 @@ public class ListaDinamica<TIPO_DO_ELEMENTO> {
 		}
 	}
 
-
 	public TIPO_DO_ELEMENTO pegar(int posicao) {
 		if (posicao > obterTamanho()-1 || posicao < 0) {
-			throw new RuntimeException("Posição fora do intervalo: " + posicao);
+			throw new RuntimeException("Posiï¿½ï¿½o fora do intervalo: " + posicao);
 		}
 		int contador = 0;
 		Elemento atual = primeiro;
@@ -83,12 +75,4 @@ public class ListaDinamica<TIPO_DO_ELEMENTO> {
 		}
 		return null;
 	}
-
-
-
-
-
-
-
-
 }

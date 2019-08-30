@@ -36,7 +36,4 @@ public class Lista {
 		}
 		dados = novoArray;		
 	}
-	
-	
-
 }

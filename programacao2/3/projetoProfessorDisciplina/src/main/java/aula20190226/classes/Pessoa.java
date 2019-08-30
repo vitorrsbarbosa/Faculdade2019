@@ -8,5 +8,4 @@ public class Pessoa {
 		this.nome = parametroNome;
 		this.idade = parametroIdade;
 	}
-
 }

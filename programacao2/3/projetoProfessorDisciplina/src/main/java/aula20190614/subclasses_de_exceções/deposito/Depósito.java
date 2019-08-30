@@ -12,12 +12,10 @@ public class Depósito {
 		this.conta = conta;
 		this.valor = valor;
 	}
-	
 	public String getConta() {
 		return conta;
 	}
 	public double getValor() {
 		return valor;
 	}
-
 }

@@ -5,14 +5,10 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-import java.util.TreeSet;
 
 public class Pedido {
 	private int numero;
 	private Set<ItemPedido> itens = new HashSet<>();
-	
-	
-	
 	
 	//+ Pedido(numero : int)
 	public Pedido(int numero) {
@@ -31,6 +27,5 @@ public class Pedido {
 		ItemPedido item = new ItemPedido(produto, quantidade, preco, descontoPercentual);
 		this.itens.add(item);
 		return item;
-	}
-	
+	}	
 }

@@ -8,5 +8,4 @@ public interface CorRepository {
 	List<Cor> obterTodas();
 	void alterar(Cor verde);
 	void excluir(int id);
-
 }

@@ -39,7 +39,7 @@ public class AppListas {
 		short[] arrayDeShorts = new short[] {1000,2000,3000,4000};
 		Short[] arrayDeReferenciasDeShorts = new Short[] {1000,2000,3000,4000};
 		//e assim por diante...
-		
+
 		List lista = new ArrayList();
 		lista.add(new Date());
 		lista.add("Fulano de Tal");
@@ -49,7 +49,6 @@ public class AppListas {
 		for (Object elemento : lista) {
 			System.out.println(elemento + ", classe="+elemento.getClass());			
 		}
-		
 		List<Integer> valoresInteiros = new ArrayList<Integer>();
 		String um = "1";
 		valoresInteiros.add(Integer.parseInt(um));
@@ -57,10 +56,6 @@ public class AppListas {
 		System.out.println("-------------");
 		for (Object elemento : valoresInteiros) {
 			System.out.println(elemento);
-		}
-		
-		
- 		
+		}	
 	}
-
 }

@@ -25,7 +25,6 @@ public class App {
 		pessoas[3].nome = "Bianca";
 		pessoas[3].idade = 40;
 		*/
-		
 		Pessoa[] pessoas = { 
 				new Pessoa("Ana",10), 
 				new Pessoa("Beatriz",20), 
@@ -41,6 +40,5 @@ public class App {
 			Pessoa pessoinha = pessoas[i];
 			System.out.println(pessoinha.nome + " " + pessoinha.idade);
 		}
-}
-
+	}
 }

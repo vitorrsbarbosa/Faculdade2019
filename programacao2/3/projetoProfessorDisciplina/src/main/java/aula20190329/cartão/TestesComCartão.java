@@ -1,9 +1,7 @@
 package aula20190329.cartão;
 
 import static org.junit.Assert.assertEquals;
-
 import java.util.List;
-
 import org.junit.Test;
 
 public class TestesComCartão {
@@ -24,8 +22,6 @@ public class TestesComCartão {
 		List<Double> extrato = visa3356.obterExtrato();
 		assertEquals(4, extrato.size());
 		double somarDosValores = extrato.stream().reduce((total, atual) -> total+atual).get();
-		assertEquals(-222.50, somarDosValores,0.00);
-		
+		assertEquals(-222.50, somarDosValores,0.00);	
 	}
-
 }

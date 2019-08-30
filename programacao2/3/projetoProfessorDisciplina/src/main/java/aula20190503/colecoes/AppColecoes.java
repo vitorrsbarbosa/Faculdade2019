@@ -21,7 +21,7 @@ public class AppColecoes {
 		for (String nome : nomes) {
 			System.out.println(nome);
 		}
-		System.out.println("Nome na última posição: " + nomes.get(nomes.size()-1) );
+		System.out.println("Nome na ï¿½ltima posiï¿½ï¿½o: " + nomes.get(nomes.size()-1) );
 
 		System.out.println("--- conjunto ---");
 		Set<String> conjuntoDeNomes = new HashSet<>();
@@ -32,7 +32,6 @@ public class AppColecoes {
 		for (String nome : conjuntoDeNomes) {
 			System.out.println(nome);
 		}
-		
 		
 		System.out.println("--- mapa ---");
 		/*
@@ -48,13 +47,11 @@ public class AppColecoes {
 		mapaDePopulacaoPorPais.put("CA",  32_000_000L);
 		mapaDePopulacaoPorPais.put("CA",  35_222_000L);
 		
-		System.out.println("População do Canadá: " + mapaDePopulacaoPorPais.get("CA"));
+		System.out.println("Populaï¿½ï¿½o do Canadï¿½: " + mapaDePopulacaoPorPais.get("CA"));
 		System.out.println("Existe China? " + mapaDePopulacaoPorPais.containsKey("CN"));
 		
 		for (String sigla : mapaDePopulacaoPorPais.keySet()) {
-			System.out.println("O país " + sigla + " tem " + mapaDePopulacaoPorPais.get(sigla) + " habitantes");
-		}
-		
+			System.out.println("O paï¿½s " + sigla + " tem " + mapaDePopulacaoPorPais.get(sigla) + " habitantes");
+		}	
 	}
-
 }

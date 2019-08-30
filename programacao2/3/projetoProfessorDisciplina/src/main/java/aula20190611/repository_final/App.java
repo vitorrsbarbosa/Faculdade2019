@@ -5,13 +5,9 @@ import java.sql.DriverManager;
 import java.util.List;
 
 public class App {
-	
-	
-	
 	public static void main(String[] args) throws Exception {
 		Cor verde = new Cor(1, "Verde");
 		Cor rosa = new Cor(2, "Rosa");
-		
 		/*
 		Connection conn = DriverManager.getConnection(
 				"jdbc:postgresql://localhost:5432/3esoft2019",
@@ -30,7 +26,6 @@ public class App {
 		repo.inserir(new Cor(3, "Azul"));	
 		repo.inserir(new Cor(4, "Lil�s"));
 		
-		
 		verde = new Cor(1, "Verde Musgo");
 		repo.alterar(verde);
 		
@@ -45,7 +40,6 @@ public class App {
 		System.out.println("Fim da listagem.");
 		
 	}
-	
 	private static CorRepository criarCorRepositoryAleatoriamente() throws Exception {
 		boolean ehPar = System.currentTimeMillis()%2 == 0;
 		if (ehPar) {
@@ -58,5 +52,4 @@ public class App {
 			return new CorRepositoryJDBC(conn); //usar a conex�o para persistir os dados.
 		}
 	}
-
 }

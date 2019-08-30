@@ -36,7 +36,4 @@ public class Cor {
 			return false;
 		return true;
 	}
-	
-	
-
 }

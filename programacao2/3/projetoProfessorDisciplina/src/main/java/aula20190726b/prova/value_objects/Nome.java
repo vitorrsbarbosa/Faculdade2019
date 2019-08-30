@@ -2,18 +2,15 @@ package aula20190726b.prova.value_objects;
 
 public class Nome {
 	private final String valor;
-	
 	public Nome(String valor) {
 		if (valor == null || valor.trim().length() < 3) {
 			throw new NomeInválidoException();
 		}
 		this.valor = valor;
 	}
-
 	public String getValor() {
 		return valor;
 	}
-
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -21,7 +18,6 @@ public class Nome {
 		result = prime * result + ((valor == null) ? 0 : valor.hashCode());
 		return result;
 	}
-
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -38,9 +34,4 @@ public class Nome {
 			return false;
 		return true;
 	}
-	
-	
-	
-	
-
 }

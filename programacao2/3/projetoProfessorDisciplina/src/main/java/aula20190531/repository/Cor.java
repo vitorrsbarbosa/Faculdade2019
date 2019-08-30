@@ -1,7 +1,6 @@
 package aula20190531.repository;
 
 public class Cor {
-
 	private final int id;
 	private final String nome;
 
@@ -12,10 +11,7 @@ public class Cor {
 	public int getId() {
 		return id;
 	}
-	
 	public String getNome() {
 		return nome;
 	}
-	
-
 }

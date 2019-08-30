@@ -22,5 +22,4 @@ public class Pessoa {
 	public String getNome() {
 		return nome;
 	}
-
 }

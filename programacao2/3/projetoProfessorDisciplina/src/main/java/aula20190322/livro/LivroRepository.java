@@ -3,7 +3,6 @@ package aula20190322.livro;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class LivroRepository {
 	private List<Livro> dados = new ArrayList<>();
 	
@@ -16,5 +15,4 @@ public class LivroRepository {
 	public void remove(Livro livroParaRemover) {
 		this.dados.remove(livroParaRemover);
 	}
-
 }

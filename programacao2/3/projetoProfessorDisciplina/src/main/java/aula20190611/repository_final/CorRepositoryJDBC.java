@@ -13,22 +13,20 @@ public class CorRepositoryJDBC implements CorRepository {
 
 	public CorRepositoryJDBC(Connection connection) throws Exception {
 		if (connection == null) {
-			throw new RuntimeException("Não é possível instanciar um CorRepositoryJDBC com conexão nula!");
+			throw new RuntimeException("Nao e possivel instanciar um CorRepositoryJDBC com conexao nula!");
 		}
 		this.connection = connection;
 		
 		criarTabela();
 	}
-
 	private void criarTabela() throws SQLException {
-		//Não façam isso em casa!!! :D
+		//Nao facam isso em casa!!! :D
 		this.connection.createStatement().execute("drop table if exists cor");
 		this.connection.createStatement().execute("create table if not exists cor ("
 				+ "id integer not null primary key,"
 				+ "nome varchar(255) not null unique"
 				+ ")");
 	}
-
 	@Override
 	public void inserir(Cor c) throws Exception {
 		String sql = "insert into cor (id, nome) values (?,?)";
@@ -40,7 +38,6 @@ public class CorRepositoryJDBC implements CorRepository {
 		statement.execute();
 		statement.close();
 	}
-
 	@Override
 	public List<Cor> obterTodas() throws Exception {
 		String sql = "select id, nome from cor";
@@ -59,7 +56,6 @@ public class CorRepositoryJDBC implements CorRepository {
 		statement.close();
 		return todas;
 	}
-
 	@Override
 	public void alterar(Cor c) throws Exception {
 		String sql = "update cor set nome = ? where id = ?";
@@ -71,7 +67,6 @@ public class CorRepositoryJDBC implements CorRepository {
 		statement.execute();
 		statement.close();
 	}
-
 	@Override
 	public void excluir(int id) throws Exception {
 		String sql = "delete from cor where id = ?";
@@ -82,5 +77,4 @@ public class CorRepositoryJDBC implements CorRepository {
 		statement.execute();
 		statement.close();
 	}
-
 }

@@ -12,10 +12,7 @@ public class App {
 		uniCesumar.adicionarSocio(claudio, 29.50d);
 		uniCesumar.adicionarSocio(arthur, 2.25d);
 		
-		
 		uniCesumar.removerSocio(arthur);
-		System.out.println("Foi.");
-		
+		System.out.println("Foi.");	
 	}
-
 }

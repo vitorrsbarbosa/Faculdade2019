@@ -1,10 +1,6 @@
 package aula20190319.pedido;
 
 import static org.junit.Assert.*;
-
-import java.util.ArrayList;
-import java.util.List;
-
 import org.junit.Test;
 
 public class TestesComPedido {
@@ -39,5 +35,4 @@ public class TestesComPedido {
 		assertEquals(76.00, p2.getValorTotal(),0.01);
 		
 	}
-
 }

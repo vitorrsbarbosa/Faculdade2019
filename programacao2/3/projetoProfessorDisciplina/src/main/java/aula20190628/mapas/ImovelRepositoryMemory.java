@@ -15,12 +15,10 @@ public class ImovelRepositoryMemory implements ImovelRepository {
 	public void salvar(Imovel i) {
 		this.dados.add(i);
 	}
-
 	@Override
 	public List<Imovel> recuperarTodos() {
 		return Collections.unmodifiableList(new ArrayList<>(this.dados));
 	}
-
 	@Override
 	public Map<Pessoa, List<Imovel>> recuperarImoveisPorProprietario() {
 		Map<Pessoa, List<Imovel>> mapa = new HashMap<>();
@@ -34,9 +32,7 @@ public class ImovelRepositoryMemory implements ImovelRepository {
 				lista.add(imovel);
 				mapa.put(imovel.getProprietario(), lista);
 			}
-		}
-		
+		}	
 		return mapa;
 	}
-
 }
