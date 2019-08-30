@@ -1,0 +1,17 @@
+Gitlab:
+    -É a primeira aplicação para desenvolvimento, segurança e operações de software que permite utilização de devops durante todo o ciclo de vida do projeto
+    -Apenas a utilização do suporte do sistema é paga
+    -https://gitlab.com
+
+Microsoft Azure:
+    -Apresenta resolução de problemas de negócios com fácil curva de aprendizagem tanto para iniciantes quanto para experientes
+    -Contém início gratúito porém é pago
+    -https://azure.microsoft.com
+SauceLabs:
+    -É uma aplicação de devops voltada para testes apresentando cobertura compreensiva e integração e entrega continuas de forma escalável mantendo segurança pela utilização de máquinas virtuais criadas no momento da integração e destruidas após a utilização, diminuindo as possibilidades de  
+    -A variação de preços depende do tipo de pagamento mas começa com $19/mês e vai até $4199/mês
+    -
+CircleCI:
+    -Tem uma grande variabilidade de configurações para automatizar o pipeline desde o commit até o deploy, integrado com versionadores de código, roda automaticamente testes e builds num container ou máquina virtual permitindo testar cada parte separadamente para garantir qualidade mínima
+    -É gratúito utilizando apenas um container, indo até $3150/mês utilizando 64 containers com até 16 aplicações diferentes concorrentes paralelas
+    -https://circleci.com
