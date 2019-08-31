@@ -1,0 +1,6 @@
+Método modificador
+    -> são métodos que alteram o valor 
+    do atributo ou referência passada
+Método de acesso
+    -> são métodos que extraem ou definem
+    valores para os atributos ou referências

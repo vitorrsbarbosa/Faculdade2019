@@ -1,0 +1,11 @@
+Public (+)
+    -> permite o acesso de seus atributos e 
+    métodos internas da classe a todos outros 
+    pacotes que o chamarem;
+Private (-)
+    -> permite o acesso de seus atributos e 
+    métodos apenas dentro de sua classe
+Protected (#)
+    -> permite o acesso de seus atributos e 
+    métodos a todas suas subclasses e
+    outras classes do mesmo pacote que ela
