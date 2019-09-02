@@ -1,0 +1,21 @@
+dinheiro total = R$25.000.000,00
+
+			| valor presente líquido | capital requerido
+fabrica	 LA |	7 mi				 |	20 mi
+fabrica  SF |	5 mi				 |	15 mi
+depósito LA |	4 mi				 |	12 mi
+depósito SF |	3 mi				 |	10 mi
+
+o depósito só será construído na cidade que tiver fabrica
+
+FO max = 	7FLA + 5FSF + 4DLA + 3DSF
+
+restrições	20FLA + 15FSF + 12DLA + 10 DSF <= 20
+FLA + FSA = 1 // impede fábrica em SF e LA
+DLA + DSF = 1 // impede depósito em SF e LA
+FLA + DSF = 1 // impede fabrica em LA e depósito em SF
+FSF + DLA = 1 // impede fabrica em SF e depósito em LA
+FLA <= 1
+FSF <= 1
+DLA <= 1
+DSF <= 1

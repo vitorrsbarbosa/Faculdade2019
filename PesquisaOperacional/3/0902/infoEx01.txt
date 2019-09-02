@@ -1,0 +1,16 @@
+variáveis
+x -> eva
+y -> estevão
+
+fo min 	=> 	3.2x1 + 7,4x2 + 4,1x3 + 2,5x4
+			3,9y1 + 6,8y2 + 4,5y3 + 2,7y4
+			
+compras		=> x1 + y1 = 1
+cozinhar	=> x2 + y2 = 1
+lavar prato => x3 + y3 = 1
+lavar roupa => x4 = y4 = 1
+**apenas um responsável por cada tarefa, por isso restrição = 1
+
+eva = 2 tarefas		=> x1 + x2 + x3 + x4 = 2
+estevão = 2 tarefas => y1 + y2 + y3 + y4 = 2
+onde xi, yi >= 0
