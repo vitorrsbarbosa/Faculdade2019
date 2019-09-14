@@ -2,8 +2,248 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1839db6e-401e-4e02-a0e2-04aa2ce27a7f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__com_h2database_h2_1_4_199.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_10_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_javassist_javassist_3_23_2_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_springframework_spring_beans_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_springframework_spring_context_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_springframework_spring_core_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_springframework_spring_expression_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_springframework_spring_orm_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_springframework_spring_test_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_springframework_spring_tx_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_springframework_spring_web_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.sts4-cache/classpath-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/3esoft2019.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/aula20190809-do_zero.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/diagramaProfessorDiscilpina.asta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190219/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190226/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190226/TestesDeRevisaoDeAlgoritmos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190226/classes/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190226/classes/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190226/classes/aula20190226.asta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190308/testesMetodosBasicos/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190308/testesMetodosBasicos/TestesComMetodosBasicos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190308/testesMetodosBasicos/Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190312/testesComObjetos/Livro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190312/testesComObjetos/TestesComObjetos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190314/pedido/ItemPedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190314/pedido/Pedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190314/pedido/Produto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190314/pedido/TestesComPedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190314/pedido/pedidos.asta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190315/pedido/ItemPedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190315/pedido/Pedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190315/pedido/Produto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190315/pedido/TestesComPedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190315/pedido/pedidos.asta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190319/pedido/ItemPedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190319/pedido/Pedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190319/pedido/Produto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190319/pedido/TestesComPedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190319/pedido/pedidos - repo produto.asta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190319/pedido/pedidos.asta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190322/livro/Livro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190322/livro/LivroRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190322/livro/TestesComLivro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190326/cofre/Cofre.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190326/cofre/TestesComCofre.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190326/cofre/cofrinho.asta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190329/cartão/AppListas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190329/cartão/Cartão.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190329/cartão/TestesComCartão.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190329/cartão/cartão.asta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190402/arrays/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190402/lista/Lista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190402/lista/TestesComLista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190405/garbageCollector/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190405/garbageCollector/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190405/generics/AppPrimitivos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190405/generics/Lista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190405/generics/TestesComLista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190405/innerClass/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190405/innerClass/Cofre.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190405/listaDinamica/lista-dinamica.asta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190405/recursão/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190409/listaDinamica/lista-dinamica-com-sequence-diagram.asta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190412/listaDinamica/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190412/listaDinamica/Elefante.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190412/listaDinamica/ListaDinamica.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190503/colecoes/AppAcervo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190503/colecoes/AppColecoes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190521/v1/pessoa/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190521/v1/pessoa/Fisica.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190521/v1/pessoa/Juridica.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190521/v1/pessoa/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190528/v2/pessoa/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190528/v2/pessoa/Fisica.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190528/v2/pessoa/Juridica.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190528/v2/pessoa/PercentualDeParticipacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190528/v2/pessoa/PercentualDeParticipacaoInvalido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190528/v2/pessoa/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190528/v2/pessoa/aula20190528.asta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190531/jdbc/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190531/repository/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190531/repository/Cor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190531/repository/CorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190531/repository/repository.asta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190604/jdbc/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190604/jdbc/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190607/repository/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190607/repository/Cor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190607/repository/CorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190607/repository/CorRepositoryMemória.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190611/repository_final/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190611/repository_final/Cor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190611/repository_final/CorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190611/repository_final/CorRepositoryJDBC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190611/repository_final/CorRepositoryMemória.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190614/subclasses_de_exceções/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190614/subclasses_de_exceções/UlhaException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190614/subclasses_de_exceções/alimentação/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190614/subclasses_de_exceções/alimentação/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190614/subclasses_de_exceções/alimentação/Boi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190614/subclasses_de_exceções/alimentação/BuchoCheioExeption.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190614/subclasses_de_exceções/alimentação/Frango.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190614/subclasses_de_exceções/alimentação/Robô.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190614/subclasses_de_exceções/alimentação/Suíno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190614/subclasses_de_exceções/deposito/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190614/subclasses_de_exceções/deposito/Depósito.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190614/subclasses_de_exceções/deposito/ValorDeDepósitoInválidoException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190619/tipos_de_exceções/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190619/tipos_de_exceções/CargaIdentificadaException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190619/tipos_de_exceções/Prensa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190619/tipos_de_exceções/aula20190618.asta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190625/configurando_conexoes/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190625/configurando_conexoes/Cor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190625/configurando_conexoes/CorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190625/configurando_conexoes/CorRepositoryJDBC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190625/configurando_conexoes/CorRepositoryMemória.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190625/configurando_conexoes/connection.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190628/mapas/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190628/mapas/Imovel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190628/mapas/ImovelRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190628/mapas/ImovelRepositoryMemory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190628/mapas/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190628/tratando_exceções_banco/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190628/tratando_exceções_banco/ChavePrimariaDuplicadaException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190628/tratando_exceções_banco/Cor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190628/tratando_exceções_banco/CorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190628/tratando_exceções_banco/CorRepositoryJDBC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190628/tratando_exceções_banco/CorRepositoryMemória.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190628/tratando_exceções_banco/connection.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190726b/bidirecional/aula20190726.asta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190726b/prova/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190726b/prova/TestesComProdutosNomesCores.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190726b/prova/cor/Cor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190726b/prova/produto/CorPadrãoInválidaException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190726b/prova/produto/Produto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190726b/prova/value_objects/Nome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190726b/prova/value_objects/NomeInválidoException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190802/atribuição_docente/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190802/atribuição_docente/Coordenador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190802/atribuição_docente/Curso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190802/atribuição_docente/Professor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/aula20190802/atribuição_docente/aula20190802.asta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/br/unicesumar/TerceiroEsoftApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/br/unicesumar/base/BaseApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/br/unicesumar/disciplina/Disciplina.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/br/unicesumar/disciplina/DisciplinaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/br/unicesumar/disciplina/DisciplinaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/br/unicesumar/professor/Professor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/br/unicesumar/professor/ProfessorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/br/unicesumar/professor/ProfessorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/test/java/br/unicesumar/base/BaseApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/aula20190219/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190219/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/aula20190226/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190226/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/aula20190226/TestesDeRevisaoDeAlgoritmos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190226/TestesDeRevisaoDeAlgoritmos.java" afterDir="false" />
@@ -95,9 +335,15 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/aula20190628/mapas/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190628/mapas/Pessoa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/aula20190726b/prova/value_objects/Nome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190726b/prova/value_objects/Nome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/aula20190726b/prova/value_objects/NomeInválidoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula20190726b/prova/value_objects/NomeInválidoException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/unicesumar/TerceiroEsoftApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/unicesumar/base/BaseApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/unicesumar/disciplina/Disciplina.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/unicesumar/disciplina/DisciplinaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/unicesumar/disciplina/DisciplinaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/unicesumar/professor/Professor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/unicesumar/professor/ProfessorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/unicesumar/professor/ProfessorRepository.java" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/classes/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,31 +356,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/unicesumar/TerceiroEsoftApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/unicesumar/professor/ProfessorController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="37" column="57" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>gerarexcessao</find>
@@ -143,59 +364,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/aula20190619/tipos_de_exceções/Prensa.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190619/tipos_de_exceções/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190619/tipos_de_exceções/CargaIdentificadaException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/UlhaException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/alimentacao/Suíno.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/alimentacao/BuchoCheioExeption.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/alimentacao/Frango.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/alimentacao/Boi.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/alimentacao/Animal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/alimentacao/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/alimentacao/Robô.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/deposito/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/deposito/Depósito.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/deposito/ValorDeDepósitoInválidoException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190611/repository_final/CorRepositoryMemoria.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190611/repository_final/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190607/repository/CorRepositoryMemoria.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190607/repository/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190604/jdbc/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190531/jdbc/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190405/generics/Lista.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190402/lista/Lista.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190402/lista/TestesComLista.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190329/cartão/AppListas.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190329/cartao/Cartao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190329/cartao/TestesComCartão.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190405/recursão/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190322/livro/TestesComLivro.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190326/cofre/Cofre.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190405/generics/TestesComLista.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aula20190329/cartao/TestesComCartao.java" />
-        <option value="$PROJECT_DIR$/3esoft2019.iml" />
-        <option value="$PROJECT_DIR$/src/main/java/br/unicesumar/professor/Professor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/unicesumar/professor/ProfessorController.java" />
-      </list>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
@@ -292,17 +466,8 @@
     <option name="width" value="979" />
     <option name="height" value="1040" />
   </component>
+  <component name="ProjectId" id="1QTyqS2htQQUAFhrR6fM9gJTMFi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -415,248 +580,11 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1673774" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.3286119" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" weight="0.3295129" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.33094555" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="9" side_tool="true" visible="true" weight="0.3290461" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.3295302" />
-      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.3295302" />
-    </layout>
-  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/3esoft2019$All_in_3esoft2019__3_.ic" NAME="All in 3esoft2019 (3) Coverage Results" MODIFIED="1561487862824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190619/tipos_de_excecoes/CargaIdentificadaException.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190619/tipos_de_excecoes/Prensa.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/alimentacao/Suino.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/alimentacao/Frango.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/alimentacao/Animal.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/alimentacao/BuchoCheioExeption.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/alimentacao/Boi.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/alimentacao/App.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/alimentacao/Robo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/deposito/Deposito.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/deposito/ValorDeDepositoInvalidoException.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/App.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/deposito/App.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190614/subclasses_de_excecoes/UlhaException.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190611/repository_final/CorRepositoryMemoria.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190611/repository_final/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190611/repository_final/Cor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190607/repository/CorRepositoryMemoria.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190607/repository/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190604/jdbc/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="732">
-          <caret line="58" column="61" selection-start-line="58" selection-start-column="61" selection-end-line="58" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190531/jdbc/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="87" column="36" selection-start-line="87" selection-start-column="36" selection-end-line="87" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190402/lista/TestesComLista.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190402/lista/Lista.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-          <folding>
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190329/cartao/AppListas.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190619/tipos_de_excecoes/App.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190322/livro/TestesComLivro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190405/recursao/App.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190326/cofre/Cofre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding>
-            <element signature="e#77#78#0" expanded="true" />
-            <element signature="e#95#96#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190326/cofre/TestesComCofre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190405/generics/TestesComLista.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#230#239#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190405/generics/Lista.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190329/cartao/Cartao.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aula20190329/cartao/TestesComCartao.java" />
-    <entry file="file://$PROJECT_DIR$/.project">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.classpath">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="19" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="34" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3esoft2019.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/unicesumar/disciplina/DisciplinaController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/unicesumar/disciplina/DisciplinaRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/unicesumar/professor/ProfessorRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/unicesumar/professor/Professor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/unicesumar/TerceiroEsoftApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/unicesumar/professor/ProfessorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="37" column="57" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
