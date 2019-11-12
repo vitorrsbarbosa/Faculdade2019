@@ -1,0 +1,45 @@
+{
+    "estudio":{
+        "cod": 1,
+        "nome":"Studios Disney",
+        "proprietario": "WaltDisney",
+        "faturamento": "altos money",
+        "datafundacao": "40's"
+    },
+    "filmes": {
+        "cod": 1,
+        "meses": 36,
+        "nome": "Justice League",
+        "anolancamento": "2017",
+        "custototal": "500,000.00",
+        "cod_estudio": 1
+    },
+	"atores": [ {
+		"cod": 1,
+		"nome": "Henry Cavil",
+		"nacionalidade": "British",
+		"idade": "35",
+		"sexo": "M"
+        },{
+        "cod": 2,
+        "nome": "Gal Gadot",
+        "nacionalidade": "IDK",
+        "idade": "???",
+        "sexo": "F"
+        }
+    ],
+    "atuam": [ {
+        "cod": 1,
+		"cod_atores": 2,
+		"cod_filme": 1,
+		"cache": "50,000.00",
+        "personagem": "Diana Prince"
+        },{
+        "cod": 2,
+		"cod_atores": 1,
+		"cod_filme": 1,
+        "cache": "50,000.00",
+        "personagem": "Clark Kent"
+        }
+    ]
+}

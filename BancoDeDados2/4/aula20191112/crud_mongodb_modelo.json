@@ -1,0 +1,31 @@
+{
+	"estudio": {
+		"cod": "int pk",
+		"nome": "varchar(45)",
+		"proprietario": "varchar(45)",
+		"faturamentoanoanterior": "decimal(10,2)",
+		"datafundacao": "data"
+		},
+	"filmes": {
+		"cod": "int pk",
+		"meses": "int",
+		"nome": "varchar(45)",
+		"anolancamento": "data",
+		"custototal": "decimal(10,2)",
+		"cod_estudio": "int fk"
+		},
+	"atores": {
+		"cod": "int pk",
+		"nome": "varchar(45)",
+		"nacionalidade": "varchar(45)",
+		"idade": "int",
+		"sexo": "char(1)"
+		},
+	"atuam": {
+		"cod": "int pk",
+		"cod_atores": "int fk",
+		"cod_filme": "int fk",
+		"cache": "decimal(10,2)",
+		"personagem": "varchar(45)"
+		}
+	}
