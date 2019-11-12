@@ -1,0 +1,11 @@
+produto	produção	preço
+x1		200			25x1
+x2		140			30x2
+
+FO max = 25x1 + 30x2
+
+restrição
+x1 + x2 <= 40
+200x1 <= 6000
+140x2 <= 4000
+x1;x2 >= 0
