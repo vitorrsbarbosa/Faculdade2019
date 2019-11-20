@@ -1,0 +1,7 @@
+prova banco de dados:
+
+NOSql - MongoDB, criado a 12 anos como '10gen' mudou de nome em 2013
+é um banco de dados baseado em documentos, não dependendo 
+- clausulas:
+    - and:  db.collection.find({ key1: value1, key2: value2 }).pretty();
+    - or:   db.collection.find({ $or:(key1: value1), {key2: value2}})

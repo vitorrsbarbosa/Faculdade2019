@@ -1,0 +1,7 @@
+inicialização:
+    $ mongo  {shell} (execução do banco)
+        > use `banco`
+    $ mongod {serviço executado em background}
+    $ db.collection.create
+    $db.show
+    $ db.collection.insert
