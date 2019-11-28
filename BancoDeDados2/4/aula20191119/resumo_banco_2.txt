@@ -1,0 +1,53 @@
+[git bash]
+ssh aluno@10.10.18.57
+senha: 1
+
+digita: mongo - conecta ao mongo
+
+--------------------
+use: [ABRIR "documento'(BANCO)] - acessa banco
+collection
+-boards
+-users
+
+---------------------------------------------
+----CRIAR BANCO
+db.createcollection("teste");
+------------
+use teste
+
+CRIAR COLEÇÃO
+db.createCollection("teste");
+
+INSERIR NA COLEÇÃO
+db.teste.insert({"nome":"Vitor"});
+
+db.teste.find();
+
+db.teste.insert({ });
+
+UPDATE
+db.teste.update({"nome":"VB"},{$set:{"idade":"25"}});
+db.teste.update({"nome":"VB"},{$set:{"idade":"25"}},{upsert:true});
+
+UPDATE INC
+db.teste.update({"nome":"VB"},{$inc:{"idade":"25"}},{upsert:true})
+
+
+BUSCA
+db.teste.find();
+--------------------------
+
+db.teste.update({"nome":"VB"},{$set:{"idade":25}});
+db.teste.update({"nome":"VB"},{$set:{"idade":25}},{upsert:true});
+--------------------------------------
+
+
+REMOVER
+db.teste.remove({})
+
+https://docs.mongodb.com/manual/reference/method/db.collection.update
+---------------------------------------------------------------------------
+mongod - serviços executados no background
+
+EXECUTAR BANCO mongo(shell_
