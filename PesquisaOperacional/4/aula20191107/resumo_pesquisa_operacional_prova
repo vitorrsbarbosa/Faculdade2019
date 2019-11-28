@@ -1,0 +1,9 @@
+- A analise de sensibilidade procura determinar o efeito de uma variação de um determinado item no seu valor total
+	-Serve para determinar o quanto o valor de um item pode variar de seu valor absoluto (ou mínimo)
+
+- O custo reduzido está associado a uma variável. trata-se do total que seu coeficiente na FO deve melhorar para que a variável deixe de ser zero na solução ótima
+	- O custo reduzido é a variação do coeficiente de uma variável para determinar o quanto é necessário para que a variável deixe de ser zero na solução
+- O quanto a FO irá piorar para cada unidade que a variável altere a partir do zero, portanto o custo reduzido só se aplica a variáveis que apresentam zero na solução ótima
+
+- O preço sombra mede o valor marginal de um recurso em relação ao seu lucro total
+	- É a variação do valor absoluto até seu lucro máximo na FO
